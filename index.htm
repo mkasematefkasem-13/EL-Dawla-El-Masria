@@ -9,14 +9,15 @@
                 background-color:rgba(7, 7, 7, 0.795);
 
         }
-
         .Shetima
         {
             margin: 100px;
             padding: 50px;
             text-align: center;
-
-
+            border: 1px solid white;
+            animation-name: myAnimation;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
         }
         .duo
             {
@@ -32,15 +33,15 @@
         {
                 color: #767676;
                 font-style: italic;
-                font-weight: 300;
-                font-size:1.2em;
+                font-weight: 600;
                 margin-top: 10%;
+                font-weight: bolder;
         }
 
         p
         {
             color:rgba(240, 238, 238, 0.801);
-            font-size:0.4em;
+            font-size:2em;
             font-weight: 600;
             text-justify:newspaper;
         }
@@ -55,8 +56,12 @@
 
             }
 
-        }
 
+        }
+        @keyframes myAnimation {
+        from {background-color:aliceblue;}
+        to {background-color:chocolate;}
+        }
     </style>
     <title>Shitima</title>
 </head>
